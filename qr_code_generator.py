@@ -1,3 +1,5 @@
+            # 1st Version
+
 import qrcode
 
 data=input("Enter the text or Url: ")
@@ -11,7 +13,7 @@ image.save(filename)
 
 print(f"File saved as {filename}")
 
-
+            # 2nd Version
 
 # import qrcode
 
