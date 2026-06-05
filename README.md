@@ -1,98 +1,61 @@
-# QR Code Generator
+# Matplotlib Line Chart Demo
 
-A simple Python application that generates QR codes from text or URLs and saves them as image files.
+A beginner-friendly Python project demonstrating how to create and customize line charts using Matplotlib.
 
 ## Features
 
-* Generate QR codes from any text or URL
-* Save QR codes as image files
-* Custom file naming
-* Lightweight and beginner-friendly
+* Multiple line plots
+* Custom markers and line styles
+* Custom colors
+* Chart title and axis labels
+* Grid support
+* Customized tick colors
 
-## Requirements
+## Technologies Used
 
-* Python 3.x
-* qrcode library
-* Pillow (installed automatically with qrcode)
+* Python
+* Matplotlib
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/qr-code-generator.git
-cd qr-code-generator
+git clone https://github.com/your-username/matplotlib-line-chart-demo.git
 ```
 
-Create and activate a virtual environment (recommended):
-
-### Windows
+2. Navigate to the project folder:
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+cd matplotlib-line-chart-demo
 ```
 
-### Linux/macOS
+3. Install Matplotlib:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+pip install matplotlib
 ```
 
-Install dependencies:
+## Run the Project
 
 ```bash
-pip install qrcode[pil]
+python main.py
 ```
 
-## Usage
+## Output
 
-Run the program:
+The program displays a line chart showing sample student data across different years with customized styling options.
 
-```bash
-python qr_generator.py
-```
+## Learning Objectives
 
-Example:
+This project helps beginners learn:
 
-```text
-Enter the text or Url: https://www.google.com
-Enter file name: google_qr.png
-File saved as google_qr.png
-```
+* Creating line charts
+* Using markers and line styles
+* Customizing chart appearance
+* Adding titles and labels
+* Working with grids and ticks
 
-The QR code image will be saved in the current directory.
+## Author
 
-## Project Structure
-
-```text
-qr-code-generator/
-│
-├── qr_generator.py
-├── README.md
-└── .gitignore
-```
-
-## .gitignore
-
-Create a `.gitignore` file and add:
-
-```gitignore
-venv/
-__pycache__/
-*.pyc
-```
-
-This prevents virtual environment files and Python cache files from being uploaded to GitHub.
-
-## Future Improvements
-
-* Add a graphical user interface (GUI)
-* Support custom QR code colors
-* Add logo embedding
-* Generate multiple QR codes in batch
-
-## License
-
-This project is open source and available under the MIT License.
+Faizan Usmani
